@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activitys.GameActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -36,6 +36,21 @@
         android:textColor="@color/black"
         android:textSize="70sp"
         android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/main_LBL_princess"
+        android:layout_toLeftOf="@id/main_LBL_unicorn"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:padding="10dp"
+        android:indeterminate="false"
+        android:max="28"
+        android:minHeight="50dp" />
 
     <ImageView
         android:id="@+id/main_img_princess"
