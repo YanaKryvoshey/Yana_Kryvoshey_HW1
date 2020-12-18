@@ -1,5 +1,4 @@
 package com.example.yana_kryvoshey_hw1.Fragments;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,7 +15,6 @@ import com.example.yana_kryvoshey_hw1.R;
 
 import java.util.ArrayList;
 import java.util.ResourceBundle;
-
 public class Fragment_List extends Fragment {
 
     private TextView listfragment_LBL_TopTen;
@@ -43,8 +41,6 @@ public class Fragment_List extends Fragment {
             listfragment_LBL_TopTen.setText(listfragment_LBL_TopTen.getText() + "" + (i+1) +".  " + name + "  "+""+ point + "\n");
         }
     }
-
-
     private void findViews(View view) {
         listfragment_LBL_TopTen = view.findViewById(R.id.listfragment_LBL_TopTen);
     }
