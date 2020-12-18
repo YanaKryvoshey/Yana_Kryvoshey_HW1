@@ -1,7 +1,5 @@
 package com.example.yana_kryvoshey_hw1.Objects;
 
-import com.google.android.gms.maps.model.LatLng;
-
 public class Record implements Comparable<Record>{
 
     private String name = "";

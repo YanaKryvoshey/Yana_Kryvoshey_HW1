@@ -48,7 +48,7 @@ public class Fragment_Map extends Fragment  {
 
                 LatLng latLng = new LatLng(latitude,longituds);
                     map.addMarker(new MarkerOptions().position(latLng));
-                    map.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,12.5f));
+                    map.moveCamera(CameraUpdateFactory.newLatLng(latLng));
                 }
 
             }
